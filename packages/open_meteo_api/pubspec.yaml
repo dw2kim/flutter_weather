@@ -6,10 +6,14 @@ environment:
   sdk: ">=2.19.0 <3.0.0"
 
 dependencies:
+  # Make HTTP network requests to fetch data from an API
   http: ^0.13.0
+  # serialize & deserialize our models in order to work with the API data
+  # need `toJson` and `fromJson` methods
   json_annotation: ^4.6.0
 
 dev_dependencies:
+  # to generate the `toJson` and `fromJson` implementations
   build_runner: ^2.0.0
   json_serializable: ^6.3.1
   mocktail: ^0.3.0

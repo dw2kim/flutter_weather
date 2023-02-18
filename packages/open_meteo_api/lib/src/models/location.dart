@@ -2,6 +2,7 @@ import 'package:json_annotation/json_annotation.dart';
 
 part 'location.g.dart';
 
+/// label classes which can be serialized
 @JsonSerializable()
 class Location {
   final int id;
