@@ -1,5 +1,9 @@
 # Flutter Weather App using BLoC
 
+<p align="center">
+  <img src="https://github.com/dw2kim/flutter_weather/blob/master/images/flutter_weather.gif?raw=true" height="600px">
+</p>
+
 This project will demonstrate:
 1. How to manage multiple cubits to implement dynamic theming,
 2. Pull to Refresh
